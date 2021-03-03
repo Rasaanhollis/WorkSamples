@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.sel {
+    width: 70px;
+    padding: 0px 0px 0px 5px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+}
+
+.labelsel {
+    margin: 0px 0px 0px 0px;
+    height: 50px;
+    /*width: 120px;*/
+}
+
+.rowlabel {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    align-items: center;
+}
+
+.warning {
+    margin-left: 5px;
+    margin-bottom: auto;
+    margin-top: auto;
+    color: red;
+}
+
+.spanUnset {
+    width: unset
+}

@@ -1,0 +1,72 @@
+.topContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dateExtras {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.container {
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px grey;
+    margin: 5px 0px;
+    padding: 10px;
+}
+
+.text {
+    color: grey;
+    font-size: 14px;
+}
+
+.money {
+    color: limegreen;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.message {
+    word-break: break-word;
+}
+
+.DWUserImg {
+    height: 50px;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 100%;
+    object-fit: cover;
+    align-content: center;
+  }
+
+.DWUserImg > img {
+max-width: 100%;
+}
+
+.DWNames {
+padding: 3px;
+order: 2;
+white-space: nowrap;
+margin-left: 5px;
+display: flex;
+align-items: center;
+/*width: 55%;*/
+}
+
+.starRow {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+.Gold {
+    color: #ffc107;
+}
+.Grey {
+  color: #e4e5e9;
+}
+  
