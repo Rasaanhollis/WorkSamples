@@ -1,0 +1,22 @@
+.tutorialImg {
+    max-width: 100%;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.NextBack {
+    margin-top: 10px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.ExitTutorial {
+    margin-top: 10px;
+    font-weight: 500;
+    width: 100%;
+}
